@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+    background-color: #fffffff6;
+    font-family: 'Open Sans', sans-serif; 
+    margin: 0; 
+}
+header{
+    background-color: #1C1C1C;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+}
+h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+.menu {
+    list-style: none;
+    margin: 0px 0px 0px 0px;
+    background-color: rgb(red, green, rgb(68, 68, 230));
+}
+.menu li {
+    float: left;
+    position: relative;
+    padding: 12px 20px 12px 20px;
+    background-color: rgb(68, 68, 230);
+    transition: background-color 0.5s ease;
+
+}
+.menu li:hover > ul {
+    display: block; 
+}
+.menu li:hover {
+    background: #6e9bee;
+}
+.menu a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.menu ul {
+    position: absolute;
+    top: 100%;
+    padding-left: 0px;
+    display: none;
+    background:#6e9bee ;
+}
+.menu ul li {
+    display: block;
+    width: 170px;
+    background-color: #2055b9;
+    transition: 0.5s;
+}
+nav ul ul:hover{
+    background:#6e9bee ;
+}
+nav ul ul li:hover{
+    margin-right: -20px;
+    margin-left: 20px;
+    background:#6e9bee ;
+}
+article p{
+    text-align: center;
+    font-weight: 700;
+    font-style: oblique;
+    margin: 0px 0px 0px 0px;
+}
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+input {
+    width: 60%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+  
+button{
+    background-color: #2964d1;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: 0.4s;
+}
+  
+button:hover {
+    background-color: #5589eb;
+}
+  
+.contenedor{
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+}
+section div{
+    width: 30%;
+    float: left;
+    margin: 10px 1.2% 10px 1.2%; 
+    transition: 0.5s;
+}
+section p{
+    margin: 20px 40px 20px 40px;
+    font-family: Arial, sans-serif;
+	line-height: 1.5;
+	color: #333;
+}
+.miDiv{
+    border: 2px solid  #2055b9;
+    padding: 0px 2px 0px 2px;
+    background-color: #F0EAE0;
+    border-radius: 2%;
+}
+.miDiv:hover{
+    opacity: 0.85;
+    scale: 1.05;  
+}
+h2{
+    margin: 10px 25px 10px 22px ;
+}
+
+a img{
+    border-color: #1C1C1C;
+    border-radius: 2%;
+    margin-top: 2px;
+    width: 100%;
+    height: 100%;   
+}
+.textoVinculado{
+    font-weight: 600;
+    text-decoration: none;
+    font-style: italic; 
+    color: #1C1C1C; 
+}
+aside a{
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    clear: both;
+    transition: 0.2s; 
+}
+aside a:hover{
+    scale: 1.1;
+}
+
+footer{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    background-color: #ccc;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    float: left;
+}
+.columna1{
+    margin: 0px 0px 0px 0px;
+    width: 68%;
+    padding: 0px 0px 0px 20px;
+    text-align:left;
+    font-size: small;
+}
+.columna2{
+    margin: 0px 0px 0px 0px;
+    width: 32%;
+    padding: 0px 0px 0px 0px;
+    font-size: small;
+    text-align:left;
+}
+
+h3{
+    font-style: oblique;
+    font-size: larger;
+    font-family: 'Open Sans', sans-serif;
+    margin: 2px 0px 0px 40px;
+    padding-bottom: 4px;
+    clear: both;
+}
+.miDivCategorias{
+    border: 2px solid  #2055b9;
+    padding: 0px 2px 0px 2px;
+    background-color: #F0EAE0;
+    display: block;
+    border-radius: 2%;
+}
+.textoVinculadoCate{
+    font-weight: 0;
+    text-decoration: none;
+    color: #1C1C1C; 
+}
+
+.conocenosc{
+    text-decoration: none;
+}
+section div ul{
+    list-style: none;
+}
+section div ul li a{
+    text-decoration: none;
+}
+section div ul li a p{
+    transition: 0.2s;
+    transform-origin: left;
+}
+section div ul li a p:hover{
+    color: #2055b9;
+    scale: 1.1;
+    text-decoration: underline;
+    
+}
+h4{
+    font-family: 'Open Sans', sans-serif;
+    margin: 2px 0px 0px 40px;
+    padding-bottom: 4px;
+}
+.menuredes{
+    margin: 50px 0px 0px 0px;
+    width: max-content;
+    margin-left: 50px;
+    width: 400px;
+    
+}
+.redes{
+    width: 100px;
+    padding: 10px;
+    float: left;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.redes img{
+    
+    width: 80px;
+    height: 80px;
+}
+.redes:hover{
+    scale: 1.1;
+    opacity: 1;
+}
+
+  
+  
+
+  
